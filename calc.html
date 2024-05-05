@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KALKULATOR</title>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <div class="jj">
+      <div class="box">
+        <div class="inputt">
+          <input class="result" readonly />
+        </div>
+        <div class="raul">
+          <div class="titid">
+            <button onclick="clearDisplay()" class="op-btn">C</button>
+            <button onclick="appendToDisplay('0')" class="calc-btn">0</button>
+            <button onclick="appendToDisplay('1')" class="calc-btn">1</button>
+            <button onclick="appendToDisplay('2')" class="calc-btn">2</button>
+            <button onclick="appendToDisplay('3')" class="calc-btn">3</button>
+            <button onclick="appendToDisplay('4')" class="calc-btn">4</button>
+            <button onclick="appendToDisplay('5')" class="calc-btn">5</button>
+            <button onclick="appendToDisplay('6')" class="calc-btn">6</button>
+            <button onclick="appendToDisplay('7')" class="calc-btn">7</button>
+            <button onclick="appendToDisplay('8')" class="calc-btn">8</button>
+            <button onclick="appendToDisplay('9')" class="calc-btn">9</button>
+            <button onclick="appendToDisplay('.')" class="calc-btn">.</button>
+            <button onclick="appendToDisplay('+')" class="op-btn">+</button>
+            <button onclick="appendToDisplay('-')" class="op-btn">-</button>
+            <button onclick="appendToDisplay('*')" class="op-btn">x</button>
+            <button onclick="appendToDisplay('/')" class="op-btn">/</button>
+            <button onclick="calculate()" class="op-btn">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>

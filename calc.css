@@ -1,0 +1,107 @@
+body {
+    padding-bottom: 5000px;
+    background-color: rgb(87, 87, 212); 
+  }
+  
+  .jj {
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    width: 400px;
+    background-color: rgb(54, 51, 51);
+    padding-bottom: 25px;
+    padding-top: 18px;
+    height: 420px;
+  }
+  
+  .inputt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .result {
+    background-color: rgb(54, 51, 51);
+    width: 280px;
+    height: 55px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(214, 201, 17);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .raul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    row-gap: 12px;
+    column-gap: 1px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+  }
+  
+  .calc-btn {
+    margin-right: 20px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    transition: opacity 0.15s;
+  }
+  
+  .op-btn {
+    margin-right: 20px;
+  
+    background-color: orange;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.15s;
+  }
+  
+  .calc-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .op-btn:hover {
+    background-color: rgb(226, 145, 23);
+  }
+  
+  .calc-btn:active {
+    opacity: 0.5;
+  }
+  
+  .op-btn:active {
+    opacity: 0.5;
+  }
